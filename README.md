@@ -4,9 +4,13 @@ For this project we have stored data in Amazon S3 and used Amazon EMR to run the
 
 Following are the steps to follow:
 1)Create/login to AWS(Amazon Web Services)
+
 2)In the AWS menu select S3. Download the required files from the URL https://www.kaggle.com/c/kkbox-churn-prediction-challenge/data.
+
 3)Create a new bucket with the name “s3kkbox” with versioning enabled and permissions set to public .
+
 4)Since our dataset is very large we have uploaded the data into Amazon S3 using AWS CLI.
+
 5)To Install AWS CLI following are the commands:
 
 	$ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
